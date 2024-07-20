@@ -21,14 +21,14 @@ const Write = () => {
                             cursor?.removeText();
                         }} data-cursor-text="Read" className="cursor-pointer">
                             <img src="/images/journal3.webp" className="lg:h-[200px] lg:w-[300px]" alt="write1" />
-                            <div className="mt-[10px]">Next.js</div>
+                            <div className="mt-[10px] lg:max-w-[300px]">Next.js</div>
                         </div>
                         <div onClick={() => {
                             router.push("/blog/rust");
                             cursor?.removeText();
                         }} data-cursor-text="Read" className="cursor-pointer">
                             <img src="/images/journal2.webp" className="lg:h-[200px] lg:w-[300px]" alt="write2" />
-                            <div className="mt-[10px]">Why backend developers are switching to rust</div>
+                            <div className="mt-[10px] lg:max-w-[300px]">Why backend developers are switching to rust</div>
                         </div>
                         <div
                             onClick={() => {
@@ -37,7 +37,7 @@ const Write = () => {
                             }}
                             data-cursor-text="Read" className="cursor-pointer">
                             <img src="/images/journal3.webp" className="lg:h-[200px] lg:w-[300px]" alt="write3" />
-                            <div className="mt-[10px]">Scaling with Kubernetes</div>
+                            <div className="mt-[10px] lg:max-w-[300px]">Scaling with Kubernetes</div>
                         </div>
                     </div>
                 </div>
