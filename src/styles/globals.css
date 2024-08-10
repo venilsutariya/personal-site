@@ -2,32 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+:root,
+html,
+body {
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #5a5a5a rgb(57, 57, 57); /* Firefox */
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .custom-aspect-ratio {
+    position: relative;
+    width: 100%;
+  }
+
+  .custom-aspect-ratio::before {
+    content: "";
+    display: block;
+    padding-top: calc(
+      16 / 9 * 40%
+    ); /* Change the ratio as per your requirement */
+  }
+
+  .custom-aspect-ratio > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* image animation */
+.imageani {
+  animation: imganimation 0.6s ease-in-out;
+}
+
+@keyframes imganimation {
+  0% {
+    filter: blur(20px);
+  }
+  100% {
+    filter: blur(0px);
   }
 }
