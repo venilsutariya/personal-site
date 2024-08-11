@@ -8,7 +8,7 @@ export const perspective = {
         y: 0,
     },
     exit: {
-        scale: 1,
+        scale: 0.8,
         y: 0,
         opacity: 0.5,
         transition: {
