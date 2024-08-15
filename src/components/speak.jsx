@@ -23,6 +23,12 @@ const Speak = () => {
                         </a>
                     </div>
                     <div>
+                        <a href="https://www.linkedin.com/in/venil-sutariya-a6b27b228/" target="_blank" className="flex items-center gap-x-4 hover:text-blue-500">
+                            <span><Dot /></span>
+                            <span>Linkedin</span>
+                        </a>
+                    </div>
+                    <div>
                         <a href="https://github.com/venilsutariya" target="_blank" className="flex items-center gap-x-4 hover:text-blue-500">
                             <span><Dot /></span>
                             <span>Github</span>
