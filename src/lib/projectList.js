@@ -24,8 +24,7 @@ export const projectList = [
     href: "https://spotify-clone-snowy-phi.vercel.app/",
     filter: "Next.js,Clerk,Supabase,Typescript",
     isView: "View",
-    view: ["View", "Github"],
-    viewUrl: "https://spotify-clone-snowy-phi.vercel.app/",
+    view: ["Github"],
     githubUrl: "https://github.com/venilsutariya/spotify-clone.git",
   },
   {
