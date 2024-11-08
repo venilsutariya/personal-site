@@ -38,15 +38,6 @@ export const projectList = [
     githubUrl: "https://github.com/venilsutariya/spark",
   },
   {
-    name: "BookmyBox",
-    tech: "Nodejs, nodemailer, express, MongoDB",
-    imageUrl: "/images/bookmybox.png",
-    href: "https://github.com/venilsutariya/BookmyBoxbackend",
-    filter: "Node.js,MongoDB,express,Typescript",
-    view: ["Github"],
-    githubUrl: "https://github.com/venilsutariya/BookmyBoxbackend",
-  },
-  {
     name: "Discord Clone",
     tech: "Next.js, React.js, Shadcn, Typescript, Tailwind",
     imageUrl: "/images/discord-clone.webp",
@@ -54,6 +45,15 @@ export const projectList = [
     filter: "Next.js,Clerk,Shadcn,Typescript",
     view: ["Github"],
     githubUrl: "https://github.com/venilsutariya/discord-clone",
+  },
+  {
+    name: "BookmyBox",
+    tech: "Nodejs, nodemailer, express, MongoDB",
+    imageUrl: "/images/bookmybox.png",
+    href: "https://github.com/venilsutariya/BookmyBoxbackend",
+    filter: "Node.js,MongoDB,express,Typescript",
+    view: ["Github"],
+    githubUrl: "https://github.com/venilsutariya/BookmyBoxbackend",
   },
   {
     name: "Messanger Clone",
