@@ -1,5 +1,14 @@
 export const projectList = [
   {
+    name: "TatvaTech",
+    tech: "Next.js, Tailwind, shadcn/ui, Framer-Motion",
+    imageUrl: "/images/tatvatech.jpg",
+    filter: "React.js,Node.js,MongoDB,Tailwind,firebase",
+    href: "https://tatvatech.com",
+    viewUrl: "https://tatvatech.com",
+    view: ["View"],
+  },
+  {
     name: "Shilp",
     tech: "Next.js, Node.js ,MongoDB, Tailwind, shadcn/ui",
     imageUrl: "/images/shilp.png",

@@ -38,7 +38,7 @@ const Work = () => {
                                         alt={project.name}
                                         className="object-cover hover:opacity-80 transition-all imageani cursor-pointer shadow-[#1e1d1d]"
                                     />
-                                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-0 group-hover:h-full w-full hidden lg:flex justify-center items-center opacity-0 group-hover:opacity-100 bg-[#000]/50 backdrop-blur-xl transition-all">
+                                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-0 group-hover:h-full w-full hidden lg:flex justify-center items-center opacity-0 group-hover:opacity-100 bg-[#000]/50 backdrop-blur-lg transition-all">
                                         {project.name}
                                     </div>
                                 </div>
