@@ -25,7 +25,7 @@ const RustPage = () => {
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 2 }}
+                    transition={{ duration: 1 }}
                     className="px-10 py-5 lg:px-20 lg:py-10 mt-[100px] lg:mt-0">
                     <div className="lg:px-40">
                         <h1 className="text-4xl">Why Backend Developers Are Switching to Rust</h1>
