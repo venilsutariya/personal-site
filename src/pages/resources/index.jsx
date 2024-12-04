@@ -67,7 +67,7 @@ const VideoWithLoader = ({ videoSrc }) => {
     return (
         <div className="relative w-full h-full">
             {loading && (
-                <div className="absolute inset-0 flex justify-center items-center bg-gray-200 rounded-3xl">
+                <div className="absolute inset-0 flex justify-center items-center bg-neutral-900 rounded-3xl">
                     <div className="loader">
                         <Loader2 className="animate-spin" />
                     </div>
