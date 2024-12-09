@@ -11,7 +11,7 @@ const Speak = () => {
                 <button
                     data-cursor="-hidden"
                     className="mt-[24px] rounded-full py-2 hover:text-black hover:bg-white px-3 border flex items-center gap-x-4"
-                    onClick={() => window.location.href = 'mailto:venil@shilp.co'}
+                    onClick={() => window.location.href = 'mailto:venilsutariya7@gmail.com'}
                 >
                     Say hi <ArrowRight size={20} />
                 </button>
