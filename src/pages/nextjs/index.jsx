@@ -57,9 +57,6 @@ const NextJs = () => {
                             <div className="mt-10">
                                 Venil Sutariya
                             </div>
-                            <a href="https://shilp.co" target="_blank" className="text-blue-500 hover:underline">
-                                Shilp Agnecy
-                            </a>
                         </div>
                     </div>
                 </motion.div>
