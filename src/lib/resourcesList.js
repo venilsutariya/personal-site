@@ -44,4 +44,9 @@ export const resourcesList = [
     video: "/images/image-sphere.mp4",
     href: "https://github.com/venilsutariya/3D-Image-Sphere",
   },
+  {
+    title: "Parallax-Scroll",
+    video: "/images/parallax-scroll.mp4",
+    href: "https://github.com/venilsutariya/parallax-scroll",
+  },
 ];
