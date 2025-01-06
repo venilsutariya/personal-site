@@ -24,20 +24,20 @@ const Write = () => {
                             <div className="mt-[10px]">Next.js</div>
                         </div>
                         <div onClick={() => {
-                            router.push("/rust");
+                            router.push("/system-design");
                             cursor?.removeText();
                         }} data-cursor-text="Read" className="cursor-pointer">
                             <img src="/images/journal2.webp" className="lg:h-[200px] lg:w-[300px]" alt="write2" />
-                            <div className="mt-[10px]">Why backend developers are switching to rust</div>
+                            <div className="mt-[10px]">System Design</div>
                         </div>
                         <div
                             onClick={() => {
-                                router.push("/kubernetes");
+                                router.push("/fullstack-workflow");
                                 cursor?.removeText();
                             }}
                             data-cursor-text="Read" className="cursor-pointer">
                             <img src="/images/journal3.webp" className="lg:h-[200px] lg:w-[300px]" alt="write3" />
-                            <div className="mt-[10px]">Scaling with Kubernetes</div>
+                            <div className="mt-[10px]">Optimizing Full-Stack Workflows</div>
                         </div>
                     </div>
                 </div>
