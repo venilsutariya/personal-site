@@ -35,7 +35,7 @@ const FullStackWorkflows = () => {
                         <div className="space-y-6 mt-5">
                             <p className="text-lg">Hi everyone,</p>
                             <p className="text-gray-300">
-                                After five years in the trenches of full-stack development, I've learned that optimizing workflows is not just about faster coding—it's about smarter collaboration, efficient tools, and structured processes. Today, I’ll share key insights and strategies to help you streamline your workflows and deliver impactful solutions consistently.
+                                After five years in the trenches of full-stack development, I&apos;ve learned that optimizing workflows is not just about faster coding—it&apos;s about smarter collaboration, efficient tools, and structured processes. Today, I’ll share key insights and strategies to help you streamline your workflows and deliver impactful solutions consistently.
                             </p>
 
                             <section>

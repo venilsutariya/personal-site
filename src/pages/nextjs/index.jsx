@@ -41,7 +41,7 @@ const NextJs = () => {
                         <div className="space-y-6">
                             <p className="text-lg">Hi everyone,</p>
                             <p className="text-gray-300">
-                                Today, I want to share insights into one of our favorite frameworks at Shilp: Next.js. Whether you’re a seasoned developer or just starting out, this post will help you understand why we rely on it for building modern web applications.
+                                Today, I want to share insights into one of our favorite frameworks at Shilp: Next.js. Whether you&apos;re a seasoned developer or just starting out, this post will help you understand why we rely on it for building modern web applications.
                             </p>
 
                             <section>
@@ -70,10 +70,10 @@ const NextJs = () => {
                                         SEO optimization is a breeze with Next.js. Its server-side rendering capabilities ensure search engines can effectively crawl and index content, which helps our clients gain better visibility online.
                                     </p>
                                     <p>
-                                        Styling is seamless with Next.js. Whether it’s regular CSS, Sass, or CSS-in-JS solutions, it integrates effortlessly, allowing us to maintain clean and scalable design systems.
+                                        Styling is seamless with Next.js. Whether it&apos;s regular CSS, Sass, or CSS-in-JS solutions, it integrates effortlessly, allowing us to maintain clean and scalable design systems.
                                     </p>
                                     <p>
-                                        Additionally, the framework’s active community and comprehensive documentation, backed by <a
+                                        Additionally, the framework&apos;s active community and comprehensive documentation, backed by <a
                                             href="https://vercel.com"
                                             target="_blank"
                                             rel="noopener noreferrer"

@@ -41,7 +41,7 @@ const SystemDesign = () => {
                         <div className="space-y-6">
                             <p className="text-lg">Hi everyone,</p>
                             <p className="text-gray-300">
-                                Today, let’s dive into the fascinating world of system design—a crucial skill for any experienced developer. Whether you're preparing for interviews or tackling complex architectural challenges, understanding system design is essential for creating scalable, reliable, and efficient applications.
+                                Today, let&apos;s dive into the fascinating world of system design—a crucial skill for any experienced developer. Whether you&apos;re preparing for interviews or tackling complex architectural challenges, understanding system design is essential for creating scalable, reliable, and efficient applications.
                             </p>
 
                             <section>
@@ -79,7 +79,7 @@ const SystemDesign = () => {
                                         <strong>Load Balancers:</strong> Distribute incoming requests across multiple servers to ensure no single server becomes overwhelmed.
                                     </p>
                                     <p>
-                                        <strong>Databases:</strong> Choose between SQL or NoSQL databases based on your application’s needs. Techniques like sharding and replication improve scalability and reliability.
+                                        <strong>Databases:</strong> Choose between SQL or NoSQL databases based on your application&apos;s needs. Techniques like sharding and replication improve scalability and reliability.
                                     </p>
                                     <p>
                                         <strong>Cache:</strong> Use tools like Redis or Memcached to store frequently accessed data and reduce load on the database.
@@ -94,7 +94,7 @@ const SystemDesign = () => {
                             </section>
 
                             <p className="text-gray-300 mt-10">
-                                Thanks for reading! If you have any questions or need help designing your next big system, feel free to reach out. Let’s build something amazing together.
+                                Thanks for reading! If you have any questions or need help designing your next big system, feel free to reach out. Let&apos;s build something amazing together.
                             </p>
 
                             <p className="mt-10 font-medium text-xl">Venil Sutariya</p>
