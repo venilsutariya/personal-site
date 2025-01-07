@@ -41,7 +41,7 @@ const NextJs = () => {
                         <div className="space-y-6">
                             <p className="text-lg">Hi everyone,</p>
                             <p className="text-gray-300">
-                                Today, I want to share insights into one of our favorite frameworks at Shilp: Next.js. Whether you&apos;re a seasoned developer or just starting out, this post will help you understand why we rely on it for building modern web applications.
+                                Today, I want to share insights into one of our favorite frameworks at TatvaTech: Next.js. Whether you&apos;re a seasoned developer or just starting out, this post will help you understand why we rely on it for building modern web applications.
                             </p>
 
                             <section>
@@ -52,7 +52,7 @@ const NextJs = () => {
                             </section>
 
                             <section>
-                                <h2 className="text-3xl font-semibold mt-10">Why We Love Next.js at Shilp</h2>
+                                <h2 className="text-3xl font-semibold mt-10">Why We Love Next.js at TatvaTech</h2>
                                 <div className="text-gray-300 mt-4 space-y-4">
                                     <p>
                                         One of the standout features of <a
