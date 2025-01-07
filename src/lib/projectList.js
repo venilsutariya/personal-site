@@ -1,9 +1,18 @@
 export const projectList = [
   {
+    name: "Afternuage",
+    tech: "Next.js, Tailwind, shadcn/ui, Clerk",
+    imageUrl: "/images/afternuage.jpeg",
+    filter: "Next.js,React.js,Tailwind",
+    href: "https://afternuage.com",
+    viewUrl: "https://afternuage.com",
+    view: ["View"],
+  },
+  {
     name: "Finance",
     tech: "Next.js, Tailwind, shadcn/ui, PostgreSQL, Hono",
     imageUrl: "/images/finance.png",
-    filter: "React.js,Node.js,MongoDB,Tailwind,firebase",
+    filter: "Next.js,React.js,Node.js,MongoDB,Tailwind,firebase",
     href: "https://github.com/venilsutariya/Finance",
     viewUrl: "https://github.com/venilsutariya/Finance",
     view: ["Github"],
