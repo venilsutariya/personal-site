@@ -109,6 +109,15 @@ export const projectList = [
     githubUrl: "https://github.com/venilsutariya/AI-SaaS-Image-Generator",
   },
   {
+    name: "AI Talks",
+    tech: "React.js, Node.js ,Cloudinary",
+    imageUrl: "/images/ai-talks.svg",
+    href: "https://github.com/venilsutariya/ai.talks",
+    filter: "React.js,Next.js,Prisma,Tailwind,OpenAI",
+    view: ["Github"],
+    githubUrl: "https://github.com/venilsutariya/ai.talks",
+  },
+  {
     name: "E-commerce",
     tech: "React.js, Node.js ,MongoDB, Tailwind",
     imageUrl: "/images/ecommerce.webp",
