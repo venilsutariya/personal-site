@@ -23,7 +23,7 @@ const Hero = () => {
                 >
                     <button
                         data-cursor="-hidden"
-                        className="mt-[24px] rounded-full py-2 px-3 shadow-sm shadow-white/20 flex items-center gap-x-4 bg-gradient-to-tr from-blue-400/30 via-transparent to-violet-400/30 hover:from-violet-400/30 hover:to-blue-400/30 hover:via-transparent"
+                        className="mt-[24px] rounded-full py-2 px-3 flex items-center gap-x-4 border-white border text-white hover:bg-white hover:text-black"
                     >
                         Book an appointment
                     </button>
