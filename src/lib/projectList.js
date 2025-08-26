@@ -22,8 +22,8 @@ export const projectList = [
     tech: "Next.js, Tailwind, shadcn/ui, Framer-Motion",
     imageUrl: "/images/tatvatech.jpg",
     filter: "Next.js,Tailwind",
-    href: "https://tatvatech.com",
-    viewUrl: "https://tatvatech.com",
+    href: "https://tatvatech.vercel.app/",
+    viewUrl: "https://tatvatech.vercel.app/",
     view: ["View"],
   },
   {
